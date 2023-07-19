@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.hero-img {
+  margin-bottom: 2rem;
+}
+
+.quick-fact {
+  display: flex;
+  flex-direction: column;
+  background-color: #aaaaaa;
+  height: 50rem;
+  color: #101d2c;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+
+.heading-primary {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 1.4rem 0;
+}
+
+.quick-fact .facts-list {
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.quick-fact .facts-list .label {
+  font-weight: 600;
+}
+
+.image-signature {
+  height: 3rem;
+  width: 10rem;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.sub-division {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #101d2c;
+  padding: 1rem 0;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 75%;
+  font-weight: 700;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.link-text {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 0.02rem;
+}
+
+.link-text::after {
+  position: absolute;
+  font-family: "Nunito" sans-serif;
+  font-size: 1rem;
+  top: 110%;
+  left: 100%;
+  transform: translateX(-60%);
+  background-color: #101d2c;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.link-text:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pmo-link::after {
+  content: "PMO Website";
+}
+
+.namo-link::after {
+  content: "NaMo Website";
+}
+
+.twitter-link::after {
+  content: "Twitter Profile";
+}
+
+.instagram-link::after {
+  content: "Instagram Profile";
+}
+
+.linkedin-link::after {
+  content: "Linkedin Profile";
+}
