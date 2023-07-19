@@ -11,4 +11,4 @@ elements, or including additional content.
 Feel free to customize the HTML and CSS code to add more sections, modify the layout, change the
 colors, or add additional information about Narendra Modi.
 
-##### [Click Here!](https://simple-basic-calculator-project.netlify.app/) View The Tribute Page... 😍🥳🎉
+##### [Click Here!](https://tribute-to-narendra-modi.netlify.app/) View The Tribute Page... 😍🥳🎉
